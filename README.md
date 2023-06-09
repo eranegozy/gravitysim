@@ -15,6 +15,7 @@
 - See `app.py` for constants / assumptions
 - Resize the window as you wish. The simulation will adapt and scale according to the window width
 - `MainWidget` is the main window that sets up all the drawing and simulation code
+- A simple `Label` lets you show text on screen.
 - `Body` is the class that models a planetary body. These are instantiated in `MainWidget`
 - `pos_to_screen()` and `scalar_to_screen()` deal with converting world coordinates (in units of km) to screen space (pixels).
 - `calculate_forces()` computes gravitational forces that are then applied to the objects.
